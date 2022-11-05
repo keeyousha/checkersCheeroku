@@ -1,0 +1,238 @@
+﻿<Window x:Class="chckckckckckckckckckckc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:chckckckckckckckckckckc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="835"
+        ResizeMode="NoResize">
+    <Grid>
+        <UniformGrid HorizontalAlignment="Left">
+  
+            <Button Width="80" Height="80" x:Name="f1" Background="#FF9296B2">
+                <Image x:Name="i1"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f2" Background="#FFCCD1EE">
+                <Image x:Name="i2"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f3" Background="#FF9296B2">
+                <Image x:Name="i3"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f4" Background="#FFCCD1EE">
+                <Image x:Name="i4"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f5" Background="#FF9296B2">
+                <Image x:Name="i5"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f6" Background="#FFCCD1EE">
+                <Image x:Name="i6"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f7" Background="#FF9296B2">
+                <Image x:Name="i7"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f8" Background="#FFCCD1EE">
+                <Image x:Name="i8"></Image>
+            </Button>
+
+
+            <Button Width="80" Height="80" x:Name="f9" Background="#FFCCD1EE">
+                <Image x:Name="i9"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f10" Background="#FF9296B2">
+                <Image x:Name="i10"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f11" Background="#FFCCD1EE">
+                <Image x:Name="i11"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f12" Background="#FF9296B2">
+                <Image x:Name="i12"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f13" Background="#FFCCD1EE">
+                <Image x:Name="i13"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f14" Background="#FF9296B2">
+                <Image x:Name="i14"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f15" Background="#FFCCD1EE">
+                <Image x:Name="i15"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f16" Background="#FF9296B2">
+                <Image x:Name="i16"></Image>
+            </Button>
+
+
+
+            <Button Width="80" Height="80" x:Name="f17" Background="#FF9296B2">
+                <Image x:Name="i17"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f18" Background="#FFCCD1EE">
+                <Image x:Name="i18"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f19" Background="#FF9296B2">
+                <Image x:Name="i19"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f20" Background="#FFCCD1EE">
+                <Image x:Name="i20"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f21" RenderTransformOrigin="0.5,0.5" Background="#FF9296B2">
+                <Image x:Name="i21"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f22" Background="#FFCCD1EE">
+                <Image x:Name="i22"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f23" Background="#FF9296B2">
+                <Image x:Name="i23"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f24" Background="#FFCCD1EE">
+                <Image x:Name="i24"></Image>
+            </Button>
+
+
+
+
+            <Button Width="80" Height="80" x:Name="f25" Background="#FFCCD1EE">
+                <Image x:Name="i25"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f26" Background="#FF9296B2">
+                <Image x:Name="i26"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f27" Background="#FFCCD1EE">
+                <Image x:Name="i27"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f28" Background="#FF9296B2">
+                <Image x:Name="i28"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f29" Background="#FFCCD1EE">
+                <Image x:Name="i29"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f30" Background="#FF9296B2">
+                <Image x:Name="i30"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f31" Background="#FFCCD1EE">
+                <Image x:Name="i31"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f32" Background="#FF9296B2">
+                <Image x:Name="i32"></Image>
+            </Button>
+
+            <Button Width="80" Height="80" x:Name="f33" Background="#FF9296B2">
+                <Image x:Name="i33"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f34" Background="#FFCCD1EE">
+                <Image x:Name="i34"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f35" Background="#FF9296B2">
+                <Image x:Name="i35"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f36" Background="#FFCCD1EE">
+                <Image x:Name="i36"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f37" Background="#FF9296B2">
+                <Image x:Name="i37"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f38" Background="#FFCCD1EE">
+                <Image x:Name="i38"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f39" Background="#FF9296B2">
+                <Image x:Name="i39"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f40" Background="#FFCCD1EE">
+                <Image x:Name="i40"></Image>
+            </Button>
+
+
+            <Button Width="80" Height="80" x:Name="f41" Background="#FFCCD1EE">
+                <Image x:Name="i41"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f42" Background="#FF9296B2">
+                <Image x:Name="i42"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f43" Background="#FFCCD1EE">
+                <Image x:Name="i43"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f44" Background="#FF9296B2">
+                <Image x:Name="i44"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f45" Background="#FFCCD1EE">
+                <Image x:Name="i45"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f46" Background="#FF9296B2">
+                <Image x:Name="i46"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f47" Background="#FFCCD1EE">
+                <Image x:Name="i47"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f48" Background="#FF9296B2">
+                <Image x:Name="i48"></Image>
+            </Button>
+
+
+
+            <Button Width="80" Height="80" x:Name="f49" Background="#FF9296B2">
+                <Image x:Name="i49"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f50" Background="#FFCCD1EE">
+                <Image x:Name="i50"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f51" Background="#FF9296B2">
+                <Image x:Name="i51"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f52" Background="#FFCCD1EE">
+                <Image x:Name="i52"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f53" RenderTransformOrigin="0.5,0.5" Background="#FF9296B2">
+                <Image x:Name="i53"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f54" Background="#FFCCD1EE">
+                <Image x:Name="i54"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f55" Background="#FF9296B2">
+                <Image x:Name="i55"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f56" Background="#FFCCD1EE">
+                <Image x:Name="i56"></Image>
+            </Button>
+
+
+
+
+            <Button Width="80" Height="80" x:Name="f57" Background="#FFCCD1EE">
+                <Image x:Name="i57"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f58" Background="#FF9296B2">
+                <Image x:Name="i58"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f59" Background="#FFCCD1EE">
+                <Image x:Name="i59"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f60" Background="#FF9296B2">
+                <Image x:Name="i60"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f61" Background="#FFCCD1EE">
+                <Image x:Name="i61"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f62" Background="#FF9296B2">
+                <Image x:Name="i62"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f63" Background="#FFCCD1EE">
+                <Image x:Name="i63"></Image>
+            </Button>
+            <Button Width="80" Height="80" x:Name="f64" Background="#FF9296B2">
+                <Image x:Name="i64"></Image>
+            </Button>
+
+        </UniformGrid>
+
+        <Grid Width="200" HorizontalAlignment="Right">
+            <Image Source="/leftscreen.png" HorizontalAlignment="Right"></Image>
+
+            <Image Source="/blackMenu.png" Width="80" Height="80" Margin="20,485,100,59" MouseDown="Image_MouseDown_1" Cursor="Hand" ></Image>
+            <Image Source="/whiteMenu.png" Width="80" Height="80" Margin="105,485,15,59" MouseDown="Image_MouseDown" Cursor="Hand" ></Image>
+        </Grid>
+        
+        
+        
+        
+    </Grid>
+</Window>
