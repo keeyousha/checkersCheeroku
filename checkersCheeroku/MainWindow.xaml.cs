@@ -13,8 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
-namespace chckckckckckckckckckckc
+namespace cheerokuCheckers
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,11 +26,9 @@ namespace chckckckckckckckckckckc
 
         bool isWhite;
 
-        //добавляем все плиточки и картинки в коллекцию
+        bool activityIndicator = false;
 
-        public ArrayList aFields = new ArrayList(); // создаём коллекцию
-        public ArrayList aImages = new ArrayList(); // и для отображения шашечек
-
+        int temporaryActivityIndex = -1;
 
         public MainWindow()
         {
@@ -37,7 +36,7 @@ namespace chckckckckckckckckckckc
 
             GameStart();
 
-            
+
 
 
 
@@ -49,35 +48,32 @@ namespace chckckckckckckckckckckc
         {
             FieldGeneration(isWhite);
 
+            Reloader();
+
+
 
 
         }
 
         public void Reloader()
         {
-            Button tempb = new Button();
-            Image tempi = new Image();
-            int index = 0;
-
-            for (int i = 0; i < field.GetLength(1); i++)
+            for (int i = 0; i < 8; i++)
             {
-                break; //temporary
-                for (int j = 0; j < field.GetLength(2); j++)
+                for (int j = 0; j < 8; j++)
                 {
 
-                    if (field[i, j] == 1)
-                    {
+                    if (field[i, j] == 0) FieldSet(ConverterTo10(i, j), 0); // null
 
+                    if (field[i, j] == 1) FieldSet(ConverterTo10(i, j), 1); // black
 
+                    if (field[i, j] == 2) FieldSet(ConverterTo10(i, j), 2); // white
 
-                    }
+                    if (field[i, j] == 3) FieldSet(ConverterTo10(i, j), 3); // black queen
 
-                    index += 1;
+                    if (field[i, j] == 4) FieldSet(ConverterTo10(i, j), 4); // white queen
 
                 }
-
             }
-
         }
 
         public void FieldSet(int fieldNum, int operationNumber) //fieldNum - field[i]
@@ -90,7 +86,7 @@ namespace chckckckckckckckckckckc
                                                                 // 5 - clear field color active, 
                                                                 // 6 - make field color active
         {
-
+            //grid.Children.Add(new Button());
             switch (operationNumber)
             {
                 case 0:
@@ -1479,6 +1475,25 @@ namespace chckckckckckckckckckckc
 
         }
 
+        public int ConverterTo10(int i, int j)
+        {
+
+            string num = String.Concat(Convert.ToString(i), Convert.ToString(j));
+
+            return Convert.ToInt32(num, 8);
+
+        }
+
+        public int[] ConverterTo8(int dec)
+        {
+            string temp = Convert.ToString(dec, 8);
+            char[] temp1 = temp.ToCharArray();
+            int[] temp3 = { Convert.ToInt32(temp1[0]), Convert.ToInt32(temp1[1]) };
+
+            return temp3;
+
+        }
+
         public int[,] FieldGeneration(bool isWhite)
         {
 
@@ -1589,6 +1604,39 @@ namespace chckckckckckckckckckckc
         {
             isWhite = false;
             GameStart();
+        }
+
+        private void ActivityHandler(int index)
+        {
+
+            if (!activityIndicator) //start
+            {
+
+                FieldSet(index, 5);
+                activityIndicator = true;
+                temporaryActivityIndex = index;
+
+            }
+
+            else  //stop
+            {
+                MoveMatrix(temporaryActivityIndex, index);
+
+                activityIndicator = false;
+            }
+
+        }
+
+        private void MoveMatrix(int temporaryActivityIndex, int moveToIndex)
+        {
+            
+
+
+        }
+
+        private void f1_Click(object sender, RoutedEventArgs e)
+        {
+            ActivityHandler(0);
         }
     }
 

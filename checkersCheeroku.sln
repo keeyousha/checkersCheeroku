@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chckckckckckckckckckckc", "chckckckckckckckckckckc\chckckckckckckckckckckc.csproj", "{D26FF066-7E58-400F-897A-F7A330109733}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkersCheeroku", "checkersCheeroku\checkersCheeroku.csproj", "{D26FF066-7E58-400F-897A-F7A330109733}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
